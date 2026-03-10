@@ -124,7 +124,7 @@ const Skills = () => {
         <Wrapper style={{marginBottom:"40px",}}>
             <Title>Skills</Title>
             <Desc style={{marginBottom:"40px",}}>
-I am a passionate Frontend and MERN Stack Developer with expertise in building dynamic and scalable web applications using React.js, Next.js, Node.js, Express, and MongoDB. I also have a strong foundation in Python and hands-on experience with Git and GitHub for version control. With a focus on clean code, performance, and modern design practices, I strive to deliver impactful and user-friendly web solutions.         </Desc>
+I am a passionate Frontend & Full Stack Developer specializing in building dynamic, scalable, and high-performance web applications using MERN (MongoDB, Express, React.js, Node.js) and PERN (PostgreSQL, Express, React.js, Node.js) stacks. I have a solid foundation in Python and hands-on experience with Git and GitHub for version control. Focused on writing clean, efficient code and applying modern design practices, I deliver user-friendly, responsive, and impactful web solutions.         </Desc>
             <SkillsContainer>
                 {skills.map((skill, index) => (
                     <Tilt>
