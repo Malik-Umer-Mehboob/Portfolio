@@ -1,4 +1,4 @@
-import { FacebookRounded, Instagram,LinkedIn, GitHub } from '@mui/icons-material';
+import { LinkedIn, GitHub } from '@mui/icons-material';
 import React from 'react'
 import styled from 'styled-components'
 import { Bio } from '../../data/constants';
@@ -87,13 +87,6 @@ const Footer = () => {
         <NavLink href="#Education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          {/* <SocialMediaIcon href={Bio.facebook} target="display">
-          <FacebookRounded/>
-          </SocialMediaIcon>
-
-          <SocialMediaIcon href={Bio.insta} target="display">
-          <Instagram/>
-          </SocialMediaIcon> */}
            <SocialMediaIcon href={Bio.github} target="display">
           <GitHub/>
           </SocialMediaIcon>

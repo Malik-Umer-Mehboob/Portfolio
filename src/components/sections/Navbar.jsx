@@ -96,9 +96,11 @@ const Navbar = () => {
         <Nav>
         <NavbarContainer>
             <NavLogo to='/'>
-                <a style={{
+                <div style={{
                     color: 'white',
-                }}>Umer Mehboob Khan</a>
+                    fontWeight: '500',
+                    fontSize: '18px'
+                }}>Umer Mehboob Khan</div>
             </NavLogo>
             <MobileIcon onClick={()=> setIsOpen(!isOpen)}>
                 <MenuRounded style={{color:'inherit'}}/>
